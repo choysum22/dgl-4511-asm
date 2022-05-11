@@ -6,7 +6,7 @@
         <title>Create Account</title>
         <%@include file="bootstrap.jsp" %>
     </head>
-    <body>
+    <body class='register-page'>
         <div class="container" id="register-container">
             <div class="row justify-content-center" id="register-row">
                 <div class="col-auto-4" id="register">
@@ -14,7 +14,7 @@
                         <p>Create New Account</p>
                     </div>
                     <form action="register" method="post">
-                       
+
                         <div class="mb-3 uname">
                             <label for="username" class="form-label">Username</label>
                             <input class="form-control" type="text" name="username" id="username" placeholder="Username..." />
@@ -43,19 +43,19 @@
                             <div class="col">
                                 <input class='btn form-control' id="register-btn" type="submit" value="Register" />
                             </div>
-                            <div class="col"> 
-                                <input class='btn form-control' id="back-btn" type="button" value="Cancel" onclick="window.location='index.jsp';" />
+                            <div class="col">
+                                <input class='btn form-control' id="back-btn" type="button" value="Cancel" onclick="window.location = 'index.jsp';" />
                             </div>
                         </div>
-                        
-                        
-                        
-                    </form> 
+
+
+
+                    </form>
 
                 </div>
             </div>
         </div>
-        
-        
+
+
     </body>
 </html>

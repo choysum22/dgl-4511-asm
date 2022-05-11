@@ -89,14 +89,22 @@ canvas{
 
 /* Login Page */
 
+.login-page {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url(../img/background-img.jpg);
+    
+}
+
 div#login-container {
     max-width: 448px;
+    
 }
 
 div#login {
     padding: 48px 40px 36px;
     border: 1px solid var(--clr-neutral-200);
     border-radius: 8px;
+    background-color: rgb(255, 255, 255,0.85); 
 }
 
 div#login-row {
@@ -137,11 +145,18 @@ input#login-btn {
 
 /* Register Page */
 
+.register-page {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+    url(../img/background-img.jpg);
+    
+}
+
 div#register-container {
     max-width: 448px;
 }
 
 div#register {
+    background-color: rgb(255, 255, 255,0.85); 
     padding: 48px 40px 36px;
     border: 1px solid var(--clr-neutral-200);
     border-radius: 8px;

@@ -8,7 +8,7 @@
         <%@include file="bootstrap.jsp" %>
     </head>
 
-    <body>
+    <body class="login-page">
         <div class="container" id="login-container">
             <div class="row justify-content-center" id="login-row">
                 <div class="col-auto-4" id="login">
@@ -29,7 +29,7 @@
                         </div>
 
                         <input class='btn form-control' id="login-btn" type="submit" value="Login" />
-                    </form> 
+                    </form>
 
                     <a href="register.jsp">Create Account</a>
 
